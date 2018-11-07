@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		一周年玩笑
+	</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		body{
+			background-color:#fffd82;
+		}
+		.box{
+			width:800px;
+			height:400px;
+			background-color: #1b998b;
+			margin-left: 250px;
+			margin-top: 10px;
+		}
+		p{	font:30px Microsoft JhengHei bolder;
+			text-align: center;
+		}
+		img{
+			width:20%;
+			height:30%;
+			position: absolute;
+			left:500px;
+			top:150px;
+		}
+		button{
+			width:120px;
+			height:70px;
+			font:20px bolder;
+			color: white;
+			background-color: #ff9b71;
+			text-align: center;
+			border:none;
+		}
+		#like{
+		position:absolute;
+		left:350px;
+		top:350px;
+		}
+		#unlike{
+		position:absolute;
+		left:800px;
+		top:350px;
+		}
+	</style>
+	<script type="text/javascript">
+		function picture(){
+			var a=document.getElementById('pic');
+			a.scr="what.jpg";
+			var b=document.getElementById('IQ');
+			b.innerHTML="恭喜你答对了！认识一周年快乐！！！";
+		}
+		function move(){
+			var elem=document.getElementById("unlike");
+			elem.style.left = Math.random()*1100+"px";
+			elem.style.top = Math.random()*500+"px";
+		}
+	</script>
+</head>
+<body>
+	<p id="IQ">智力题：阿吾喜欢蛋黄吗？</p>
+	<div class="box">
+		<img id="pic" src="what.jpg"/>
+		<button id="like" onclick="picture()">喜欢</button>
+		<button id="unlike"	onmouseover="move()">不喜欢</button>
+	</div>
+</body>
+</html>

@@ -1,0 +1,209 @@
+#include<stdio.h>
+#include<stdlib.h>
+main()
+{   int i,j,k;
+	system("color FC");
+  for(i=0;;i++)
+  {
+	if (i<=7)
+	printf("*");
+	else if(i>7&&i<=16)
+    printf(" ");
+	else if(i>16&&i<=20)
+    printf("*");
+    else if(i>20&&i<=25)
+	printf(" ");
+	else if(i>25&&i<=29)
+    printf("*");
+    else if(i>29&&i<=38)
+	printf(" ");
+    else if(i>38&&i<=40)
+    printf("*");
+    else if(i>40&&i<=48)
+    printf(" ");
+    else if(i>48&&i<=50)
+	printf("*");
+    if(i>50)
+		break;
+  }
+printf("\n");
+  for(i=0;;i++)
+  {
+	if (i<=2)
+	printf(" ");
+	else if(i>2&&i<=4)
+    printf("*");
+	else if(i>4&&i<=14)
+    printf(" ");
+    else if(i>14&&i<=21)
+	printf("*");
+	else if(i>21&&i<=24)
+    printf(" ");
+    else if(i>24&&i<=31)
+	printf("*");
+    else if(i>31&&i<=38)
+    printf(" ");
+    else if(i>38&&i<=40)
+    printf("*");
+    else if(i>40&&i<=48)
+	printf(" ");
+	else if(i>48&&i<=50)
+	printf("*");
+    if(i>50)
+		break;
+  }
+printf("\n");
+  for(j=1;j<=2;j++)
+  {
+	 for(i=0;;i++)
+	  {
+	     if (i<=2)
+	     printf(" ");
+	     else if(i>2&&i<=4)
+         printf("*");
+	     else if(i>4&&i<=12)
+         printf(" ");
+         else if(i>12&&i<=33)
+	     printf("*");
+	     else if(i>33&&i<=38)
+         printf(" ");
+         else if(i>38&&i<=40)
+	     printf("*");
+         else if(i>40&&i<=48)
+         printf(" ");
+         else if(i>48&&i<=50)
+		 printf("*");
+         if(i>50)
+		     break;
+	  }
+    printf("\n");
+  }
+  for(i=0;;i++)
+	  {
+	     if (i<=2)
+	     printf(" ");
+	     else if(i>2&&i<=4)
+         printf("*");
+	     else if(i>4&&i<=13)
+         printf(" ");
+         else if(i>13&&i<=32)
+	     printf("*");
+	     else if(i>32&&i<=38)
+         printf(" ");
+         else if(i>38&&i<=40)
+	     printf("*");
+         else if(i>40&&i<=48)
+         printf(" ");
+         else if(i>48&&i<=50)
+		 printf("*");
+         if(i>50)
+		     break;
+	  }
+    printf("\n");
+  for(i=0;;i++)
+	  {
+	     if (i<=2)
+	     printf(" ");
+	     else if(i>2&&i<=4)
+         printf("*");
+	     else if(i>4&&i<=15)
+         printf(" ");
+         else if(i>15&&i<=30)
+	     printf("*");
+	     else if(i>30&&i<=38)
+         printf(" ");
+         else if(i>38&&i<=40)
+	     printf("*");
+         else if(i>40&&i<=48)
+         printf(" ");
+         else if(i>48&&i<=50)
+		 printf("*");
+         if(i>50)
+		     break;
+	  }
+    printf("\n");
+  for(i=0;;i++)
+	  {
+	     if (i<=2)
+	     printf(" ");
+	     else if(i>2&&i<=4)
+         printf("*");
+	     else if(i>4&&i<=17)
+         printf(" ");
+         else if(i>17&&i<=28)
+	     printf("*");
+	     else if(i>28&&i<=38)
+         printf(" ");
+         else if(i>38&&i<=40)
+	     printf("*");
+         else if(i>40&&i<=48)
+         printf(" ");
+         else if(i>48&&i<=50)
+		 printf("*");
+         if(i>50)
+		     break;
+	  }
+    printf("\n");
+  for(i=0;;i++)
+	  {
+	     if (i<=2)
+	     printf(" ");
+	     else if(i>2&&i<=4)
+         printf("*");
+	     else if(i>4&&i<=19)
+         printf(" ");
+         else if(i>19&&i<=26)
+	     printf("*");
+	     else if(i>26&&i<=38)
+         printf(" ");
+         else if(i>38&&i<=40)
+	     printf("*");
+         else if(i>40&&i<=48)
+         printf(" ");
+         else if(i>48&&i<=50)
+		 printf("*");
+         if(i>50)
+		     break;
+	  }
+    printf("\n");
+  for(i=0;;i++)
+	  {
+	     if (i<=2)
+	     printf(" ");
+	     else if(i>2&&i<=4)
+         printf("*");
+	     else if(i>4&&i<=21)
+         printf(" ");
+         else if(i>21&&i<=24)
+	     printf("*");
+	     else if(i>24&&i<=39)
+         printf(" ");
+         else if(i>39&&i<=41)
+	     printf("*");
+         else if(i>41&&i<=47)
+         printf(" ");
+         else if(i>47&&i<=49)
+		 printf("*");
+         if(i>49)
+		     break;
+	  }
+    printf("\n");  for(i=0;;i++)
+  {
+	if (i<=7)
+	printf("*");
+	else if(i>7&&i<=22)
+    printf(" ");
+	else if(i>22&&i<=23)
+    printf("*");
+    else if(i>23&&i<=40)
+	printf(" ");
+	else if(i>40&&i<=48)
+    printf("*");
+    if(i>48)
+		break;
+  }
+printf("\n");
+printf("\n");
+printf("\n");
+printf("\n");
+}
